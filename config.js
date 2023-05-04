@@ -16,21 +16,21 @@ const mess = {
 		limit: "Limit anda sudah habis, silahkan gunakan fitur ini esok hari"
 }
 class config {
-	static botname = "@elaina-md"
+	static botname = "@ikybot"
 	static server = true
-	static email = 'skylarkaf07@gmail.com'
-	static instagram = 'https://instagram.com/skylarkaf_'
-	static wagrup = 'https://chat.whatsapp.com/InsJNQYzm0W66YQmNa5jX9'
-	static adRep1 = 'https://telegra.ph/file/562e41de727f605b9ad93.jpg'
-	static adRep2 = 'https://telegra.ph/file/9d155a6d06a7b290b8ffe.jpg'
+	static email = 'pelergaming'
+	static instagram = 'https://instagram.com/ikykunnnn'
+	static wagrup = 'https://chat.whatsapp.com/BWqK0cDNFqXFqwb8hGwbBU'
+	static adRep1 = 'https://telegra.ph/file/ce260294c10a0943e2cdb.jpg'
+	static adRep2 = 'https://telegra.ph/file/a0708856eded6f465df30.jpg'
 	static prefixs = "multi"
 	static session = "xyz"
-	static ownername = "SkylarKaf"
+	static ownername = "rizki"
 	static self = false
-	static packInfo = { packname: "Elaina - MD", author: "instagram: @skylarkaf_" }
-	static namebot = "elaina-chan"
-	static limit = 50
-	static owner = ["6282331660134@s.whatsapp.net"];	
+	static packInfo = { packname: "ikybot", author: "instagram: @ikykunnnn" }
+	static namebot = "iky-chan"
+	static limit = 10
+	static owner = ["6285878836361@s.whatsapp.net"];	
 }
 
 //reload command/function
@@ -90,7 +90,7 @@ global.maker = require('mumaker');
 global.rzky = new iky();
 
 //other
-global.creator = '@skylarkaf';
+global.creator = '@rizki';
 global.owner = config.owner;
 global.response = mess;
 global.users = JSON.parse(fs.readFileSync('./database/json/user.json'));
